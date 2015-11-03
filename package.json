@@ -1,0 +1,27 @@
+{
+  "name": "stepford-cache",
+  "version": "1.0.0",
+  "description": "cache transactions from stepford and minimally update",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/quarterto/stepford-cache.git"
+  },
+  "keywords": [
+    "smile",
+    "bank"
+  ],
+  "author": "Matt Brennan <matt@153.io>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/quarterto/stepford-cache/issues"
+  },
+  "homepage": "https://github.com/quarterto/stepford-cache#readme",
+  "dependencies": {
+    "@quarterto/promisify": "^1.0.0",
+    "stepford": "^1.0.1"
+  }
+}
