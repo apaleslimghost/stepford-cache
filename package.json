@@ -22,6 +22,6 @@
   "homepage": "https://github.com/quarterto/stepford-cache#readme",
   "dependencies": {
     "@quarterto/promisify": "^1.0.0",
-    "stepford": "^1.0.1"
+    "stepford": "^1.1.0"
   }
 }
