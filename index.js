@@ -36,7 +36,7 @@ module.exports = function(filename, options) {
 	}
 
 	return stepford(options).then(function(newTx) {
-		var allTx = values(Object.assign(txObj, toObject(newTx))).sort((t1, t2) => t1.date - t2.date);
+		var allTx = values(Object.assign(txObj, toObject(newTx)));
 		return writeFile(filename, JSON.stringify(allTx), 'utf-8');
 	});
 };
