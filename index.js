@@ -9,6 +9,7 @@ var writeFile = promisify(fs.writeFile);
 function toObject(tx) {
 	var out = {};
 	tx.forEach(function(t) {
+		delete t.hash;
 		out[hash(t)] = Object.assign(t, {hash: hash(t)});
 	});
 	return out;
